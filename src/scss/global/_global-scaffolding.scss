@@ -1,0 +1,44 @@
+/*  Этот код используеться для того, чтобы ширина и высота блока вели себя предсказуемо */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box; /* Needed for mobile WebKit */
+    -moz-box-sizing: border-box; /* Needed for Firefox */
+    box-sizing: border-box;
+}
+
+
+
+body {
+	font-size: 16px;
+
+	@media all and (max-width: 320px) {
+		background-image: url("../images/header-bg.jpg");
+		background-repeat:no-repeat;
+		background-size: 1;
+		background-position: top center;
+	}
+
+	@media all and (min-width: 321px) and (max-width: 768px) {
+		background-image: url("../images/header-bg.jpg");
+		background-repeat:no-repeat;
+		background-size: 1;
+		background-position: top center;
+	}
+
+	@media all and (min-width: 769px) {
+		background-image: url("../images/header-bg.jpg");
+		background-repeat:no-repeat;
+		background-size: 1;
+		background-position: center top;
+	}
+
+}
+
+.container {
+	margin: auto;
+	width: 94%;
+
+	@media all and (min-width: 940px) {
+		width: 940px;
+	}
+}

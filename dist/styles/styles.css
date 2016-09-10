@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/*  ╨н╤В╨╛╤В ╨║╨╛╨┤ ╨╕╤Б╨┐╨╛╨╗╤М╨╖╤Г╨╡╤В╤М╤Б╤П ╨┤╨╗╤П ╤В╨╛╨│╨╛, ╤З╤В╨╛╨▒╤Л ╤И╨╕╤А╨╕╨╜╨░ ╨╕ ╨▓╤Л╤Б╨╛╤В╨░ ╨▒╨╗╨╛╨║╨░ ╨▓╨╡╨╗╨╕ ╤Б╨╡╨▒╤П ╨┐╤А╨╡╨┤╤Б╨║╨░╨╖╤Г╨╡╨╝╨╛ */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  /* Needed for mobile WebKit */
+  -moz-box-sizing: border-box;
+  /* Needed for Firefox */
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px; }
+  @media all and (max-width: 320px) {
+    body {
+      background-image: url("../images/header-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 1;
+      background-position: top center; } }
+  @media all and (min-width: 321px) and (max-width: 768px) {
+    body {
+      background-image: url("../images/header-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 1;
+      background-position: top center; } }
+  @media all and (min-width: 769px) {
+    body {
+      background-image: url("../images/header-bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 1;
+      background-position: center top; } }
+
+.container {
+  margin: auto;
+  width: 94%; }
+  @media all and (min-width: 940px) {
+    .container {
+      width: 940px; } }
+
+.header {
+  display: flex; }
+  @media all and (max-width: 394px) {
+    .header {
+      align-items: center;
+      flex-direction: column;
+      height: 540px;
+      justify-content: flex-start; }
+      .header .promo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start; } }
+  @media all and (min-width: 395px) {
+    .header {
+      flex-direction: column;
+      height: 700px;
+      justify-content: flex-start; }
+      .header .promo {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 155px; } }
+  @media all and (min-width: 940px) {
+    .header {
+      flex-direction: column;
+      height: 700px;
+      justify-content: flex-start; }
+      .header .promo {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 155px; } }
+  .header__logo {
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25em; }
+    @media all and (max-width: 394px) {
+      .header__logo {
+        margin: 0 0 40px 0;
+        order: 2; } }
+    @media all and (min-width: 395px) {
+      .header__logo {
+        margin: 50px 0 0 40px;
+        order: 1; } }
+    .header__logo:hover {
+      color: #333; }
+  .header__navigation {
+    color: #fff; }
+    .header__navigation ul {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0; }
+      .header__navigation ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        margin: 0 10px;
+        display: block;
+        padding: 10px 0 7px 0;
+        font-size: 0.875em; }
+        .header__navigation ul li a:hover {
+          color: #333; }
+      .header__navigation ul li:last-child a {
+        display: inline-block;
+        padding: 8px 17px 8px 17px;
+        border: solid 2px #fff;
+        border-radius: 20px; }
+        .header__navigation ul li:last-child a:hover {
+          border-color: #333; }
+    @media all and (max-width: 394px) {
+      .header__navigation {
+        margin: 20px auto 115px auto;
+        order: 1; } }
+    @media all and (min-width: 395px) {
+      .header__navigation {
+        margin: 40px 0 0 0;
+        order: 2; } }
+  .header__about {
+    margin: 0 auto;
+    text-align: center; }
+    .header__about h2 {
+      font-size: 1.875em;
+      color: #fff;
+      margin: 0;
+      text-transform: uppercase; }
+    .header__about p {
+      color: #fff;
+      font-size: 1.125em;
+      margin: 0; }
+    .header__about a {
+      color: #fff;
+      font-size: 0.875em;
+      text-decoration: none;
+      display: inline-block;
+      padding: 14px 52px;
+      background-color: #ff4e50;
+      border-radius: 30px; }
+      .header__about a:hover {
+        background-color: #333; }
+    @media all and (max-width: 394px) {
+      .header__about {
+        width: 91%;
+        order: 3; }
+        .header__about h2 {
+          margin-bottom: 20px; }
+        .header__about p {
+          margin-bottom: 20px; } }
+    @media all and (min-width: 395px) {
+      .header__about {
+        width: 66%;
+        order: 3;
+        align-self: center;
+        position: relative; }
+        .header__about h2 {
+          margin-bottom: 40px;
+          font-size: 2.8em; }
+        .header__about p {
+          margin-bottom: 36px; } }
+
+/*# sourceMappingURL=styles.css.map */
