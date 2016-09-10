@@ -1,7 +1,7 @@
 &__about {
 	margin: 0 auto;
 	text-align: center;
-	h2 {
+	h1 {
 		font-size: 1.875em;
 		color: #fff;
 		margin: 0;
@@ -32,7 +32,7 @@
 	@media all and (max-width: 394px) {
 		width: 91%;
 		order: 3;
-		h2 {
+		h1 {
 			margin-bottom: 20px;
 		}
 		p {
@@ -45,7 +45,7 @@
 		order: 3;
 		align-self: center;
 		position: relative;
-		h2 {
+		h1 {
 			margin-bottom: 40px;
 			font-size: 2.8em;
 		}

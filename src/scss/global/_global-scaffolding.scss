@@ -10,35 +10,25 @@
 
 body {
 	font-size: 16px;
-
-	@media all and (max-width: 320px) {
+	background-image: url("../images/header-bg.jpg");
+	background-repeat:no-repeat;
+	background-size: 1;
+	background-position: center top;
+	@media all and (max-width: 394px) {
 		background-image: url("../images/header-bg.jpg");
 		background-repeat:no-repeat;
-		background-size: 1;
-		background-position: top center;
-	}
-
-	@media all and (min-width: 321px) and (max-width: 768px) {
-		background-image: url("../images/header-bg.jpg");
-		background-repeat:no-repeat;
-		background-size: 1;
-		background-position: top center;
-	}
-
-	@media all and (min-width: 769px) {
-		background-image: url("../images/header-bg.jpg");
-		background-repeat:no-repeat;
-		background-size: 1;
+		background-size: auto 500px;
 		background-position: center top;
 	}
-
 }
 
 .container {
 	margin: auto;
 	width: 94%;
+	max-width: 940px;
+}
 
-	@media all and (min-width: 940px) {
-		width: 940px;
-	}
+h2 {
+	text-align: center;
+	font-size: 22px;
 }
