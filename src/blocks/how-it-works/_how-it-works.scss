@@ -1,0 +1,16 @@
+.how-it-works {
+	margin-bottom: 100px;
+	h3 {
+		margin: 0 0 20px 0;
+	}
+
+	p {
+		color: #918f8c;
+		margin: 0;
+		font-size: 0.875em;
+	}
+
+	@import 'how-it-works__grid';
+	@import 'how-it-works__step';
+	@import 'how-it-works__button';
+}

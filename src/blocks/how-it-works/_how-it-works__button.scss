@@ -1,0 +1,17 @@
+&__button {
+	margin-bottom: 20px;
+	a {
+		background-color: #ff4e50;
+		border-radius: 16px;
+		color: #fff;
+		display: inline-block;
+		font-size: 0.625em;
+		padding: 7px 14px;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			background-color: #333;
+		}
+	}
+}

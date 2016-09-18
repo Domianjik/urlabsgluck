@@ -2,7 +2,7 @@
 	margin: 0 auto;
 	text-align: center;
 	h1 {
-		font-size: 1.875em;
+		font-size: 1.77em;
 		color: #fff;
 		margin: 0;
 		text-transform: uppercase;
@@ -19,7 +19,7 @@
 		font-size: 0.875em;
 		text-decoration: none;
 		display: inline-block;
-		padding: 14px 52px;
+		padding: 14px 48px;
 		background-color: #ff4e50;
 		border-radius: 30px;
 
@@ -47,10 +47,15 @@
 		position: relative;
 		h1 {
 			margin-bottom: 40px;
-			font-size: 2.8em;
 		}
 		p {
 			margin-bottom: 36px;
+		}
+	}
+
+	@media all and (min-width: 768px) {
+		h1 {
+			font-size: 2.875em;
 		}
 	}
 

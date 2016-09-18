@@ -27,7 +27,8 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 22px; }
+  font-size: 22px;
+  margin-bottom: 35px; }
 
 .header {
   display: flex; }
@@ -121,7 +122,7 @@ h2 {
     margin: 0 auto;
     text-align: center; }
     .header__about h1 {
-      font-size: 1.875em;
+      font-size: 1.77em;
       color: #fff;
       margin: 0;
       text-transform: uppercase; }
@@ -134,7 +135,7 @@ h2 {
       font-size: 0.875em;
       text-decoration: none;
       display: inline-block;
-      padding: 14px 52px;
+      padding: 14px 48px;
       background-color: #ff4e50;
       border-radius: 30px; }
       .header__about a:hover {
@@ -154,20 +155,75 @@ h2 {
         align-self: center;
         position: relative; }
         .header__about h1 {
-          margin-bottom: 40px;
-          font-size: 2.8em; }
+          margin-bottom: 40px; }
         .header__about p {
           margin-bottom: 36px; } }
+    @media all and (min-width: 768px) {
+      .header__about h1 {
+        font-size: 2.875em; } }
 
-.how-it-works__grid {
-  display: flex; }
-  @media all and (max-width: 767px) {
-    .how-it-works__grid {
-      flex-direction: column;
-      justify-content: flex-start; } }
-  @media all and (min-width: 768px) {
-    .how-it-works__grid {
-      flex-direction: row;
-      justify-content: space-between; } }
+.how-it-works {
+  margin-bottom: 100px; }
+  .how-it-works h3 {
+    margin: 0 0 20px 0; }
+  .how-it-works p {
+    color: #918f8c;
+    margin: 0;
+    font-size: 0.875em; }
+  .how-it-works__grid {
+    display: flex; }
+    @media screen and (max-width: 767px) {
+      .how-it-works__grid {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center; } }
+    @media all and (min-width: 768px) {
+      .how-it-works__grid {
+        flex-direction: row;
+        justify-content: space-between; } }
+  .how-it-works__step {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 35px; }
+    .how-it-works__step h3 {
+      font-size: 1.5em;
+      color: #fff; }
+    @media screen and (max-width: 460px) {
+      .how-it-works__step {
+        height: 240px;
+        width: 290px; } }
+    @media all and (min-width: 461px) {
+      .how-it-works__step {
+        height: 300px;
+        width: 290px; } }
+    @media all and (min-width: 768px) {
+      .how-it-works__step {
+        width: 31.9%;
+        height: 400px; } }
+    .how-it-works__step_1 {
+      background-image: url("../images/step-1.jpg");
+      repeat: no-repeat; }
+    .how-it-works__step_2 {
+      background-image: url("../images/step-2.jpg");
+      repeat: no-repeat; }
+    .how-it-works__step_3 {
+      background-image: url("../images/step-3.jpg");
+      repeat: no-repeat; }
+  .how-it-works__button {
+    margin-bottom: 20px; }
+    .how-it-works__button a {
+      background-color: #ff4e50;
+      border-radius: 16px;
+      color: #fff;
+      display: inline-block;
+      font-size: 0.625em;
+      padding: 7px 14px;
+      text-decoration: none;
+      text-transform: uppercase; }
+      .how-it-works__button a:hover {
+        background-color: #333; }
 
 /*# sourceMappingURL=styles.css.map */
