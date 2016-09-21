@@ -1,0 +1,20 @@
+&__member-photo {
+	width: 120px;
+	height: 120px;
+	margin: auto;
+	position: relative;
+	margin-bottom: 20px;
+
+	img {
+		border-radius: 60px;
+
+		&:last-child {
+			border: solid 4px #fff;
+			border-radius: 20px;
+			position: relative;
+			right: -45px;
+			bottom: 45px;
+		}
+	}
+
+}
