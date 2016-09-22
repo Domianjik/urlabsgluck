@@ -1,0 +1,13 @@
+&__logo {
+			margin-right: 100px;
+			a {
+				color: #ff4e50;
+				text-decoration: none;
+				font-size: 1.375em;
+				font-weight: bold;
+				text-transform: uppercase;
+				&:hover {
+					color: #333;
+				}
+			}
+		}

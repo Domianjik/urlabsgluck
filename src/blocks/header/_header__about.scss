@@ -1,9 +1,10 @@
 &__about {
 	margin: 0 auto;
 	text-align: center;
+
 	h1 {
-		font-size: 1.77em;
 		color: #fff;
+		font-size: 1.77em;
 		margin: 0;
 		text-transform: uppercase;
 	}
@@ -15,36 +16,38 @@
 	}
 
 	a {
-		color: #fff;
-		font-size: 0.875em;
-		text-decoration: none;
-		display: inline-block;
-		padding: 14px 48px;
 		background-color: #ff4e50;
 		border-radius: 30px;
+		color: #fff;
+		display: inline-block;
+		font-size: 0.875em;
+		padding: 14px 48px;
+		text-decoration: none;
 
 		&:hover {
 			background-color: #333;
-			//color: #333;
 		}
 	}
 
 	@media all and (max-width: 394px) {
-		width: 91%;
 		order: 3;
+		width: 91%;
+		
 		h1 {
 			margin-bottom: 20px;
 		}
+
 		p {
 			margin-bottom: 20px;
 		}
 	}
 
 	@media all and (min-width: 395px) {
-		width: 66%;
-		order: 3;
 		align-self: center;
+		order: 3;
 		position: relative;
+		width: 66%;
+		
 		h1 {
 			margin-bottom: 40px;
 		}

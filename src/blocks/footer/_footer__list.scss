@@ -1,0 +1,28 @@
+&__list {
+			list-style-type: none;
+			margin: 0 100px 0 0;
+			padding: 0;
+			
+			h3 {
+				margin: 0 0 15px 0;
+			}
+			
+			li {
+				margin-bottom: 12px;
+
+				&:last-child {
+					margin-bottom: 0px;
+				}
+
+				a {
+					color: #c0c0c0;
+					text-decoration: none;
+					font-size: .875em;
+					
+					&:hover {
+						color: #666;
+					}
+				}
+			}
+			
+		}

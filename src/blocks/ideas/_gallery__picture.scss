@@ -1,0 +1,18 @@
+&__picture {
+	height: 310px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+
+	@import 'gallery__picture_small';
+	@import 'gallery__picture_large';
+	@import 'gallery__picture_1';
+	@import 'gallery__picture_2';
+	@import 'gallery__picture_3';
+	@import 'gallery__picture_4';
+	@import 'gallery__picture_5';
+	@import 'gallery__picture_6';
+	@import 'gallery__picture_7';
+}
