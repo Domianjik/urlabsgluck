@@ -4,9 +4,22 @@
 @import 'global/global-scaffolding';
 @import 'global/global-type';
 
-@import '../blocks/header/header';
-@import '../blocks/how-it-works/how-it-works';
-@import '../blocks/partners/partners';
-@import '../blocks/ideas/ideas';
-@import '../blocks/search/search';
-@import '../blocks/footer/footer';
+//@import '../blocks/header/header';
+//@import '../blocks/how-it-works/how-it-works';
+//@import '../blocks/partners/partners';
+//@import '../blocks/ideas/ideas';
+//@import '../blocks/search/search';
+//@import '../blocks/footer/footer';
+
+/*
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	@import 'mobile/mobile-styles';
+}
+
+@media screen and (min-width: 768px) and (max-width: 939px) {
+	@import 'tablet/tablet-styles';
+}
+*/
+@media screen and (min-width: 940px) {
+	@import 'desktop/desktop-styles';
+}
