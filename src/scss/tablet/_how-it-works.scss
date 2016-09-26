@@ -1,0 +1,68 @@
+.how-it-works {
+	margin-bottom: 100px;
+	h3 {
+		margin: 0 0 20px 0;
+	}
+
+	p {
+		color: #918f8c;
+		margin: 0;
+		font-size: 0.875em;
+	}
+
+	&__grid {
+		display: flex;
+
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	&__step {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		border-radius: 4px;
+		padding: 20px;
+		margin-bottom: 35px;
+
+		h3 {
+			font-size: 1.5em;
+			color: #fff;
+		}
+		width: 31.9%;
+		height: 400px;
+
+
+
+		&_1 {
+			background-image: url("../images/step-1.jpg");
+			background-repeat: no-repeat;
+		}
+		&_2 {
+			background-image: url("../images/step-2.jpg");
+			background-repeat: no-repeat;
+		}
+		&_3 {
+			background-image: url("../images/step-3.jpg");
+			background-repeat: no-repeat;
+		}
+
+	}
+	&__button {
+		margin-bottom: 20px;
+		a {
+			background-color: #ff4e50;
+			border-radius: 16px;
+			border: none;
+			color: #fff;
+			display: inline-block;
+			font-size: 0.625em;
+			padding: 7px 14px;
+			text-decoration: none;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: #333;
+			}
+		}
+	}
+}
