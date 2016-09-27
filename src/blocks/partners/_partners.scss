@@ -2,15 +2,13 @@
 	margin-bottom: 100px;
 
 	.flex {
-		justify-content: center;
-		align-items: baseline;
-	}
-
-	@media screen and (max-width: 320px) {
-		flex-wrap: wrap;
-	}
-
-	
+		display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 220px;
+    margin: auto;
+    text-align: center;
+	}	
 
 	h3 {
 		margin:0 0 20px 0;
