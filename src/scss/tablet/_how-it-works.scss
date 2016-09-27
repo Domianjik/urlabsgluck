@@ -12,10 +12,10 @@
 
 	&__grid {
 		display: flex;
-
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 	&__step {
 		display: flex;
 		flex-direction: column;
@@ -23,13 +23,13 @@
 		border-radius: 4px;
 		padding: 20px;
 		margin-bottom: 35px;
-
+		width: 31.9%;
+		height: 340px;
+		background-position: top center;
 		h3 {
 			font-size: 1.5em;
 			color: #fff;
 		}
-		width: 31.9%;
-		height: 400px;
 
 
 

@@ -130,7 +130,8 @@ h2 {
       padding: 20px;
       margin-bottom: 35px;
       width: 31.9%;
-      height: 400px; }
+      height: 340px;
+      background-position: top center; }
       .how-it-works__step h3 {
         font-size: 1.5em;
         color: #fff; }
@@ -177,7 +178,7 @@ h2 {
       text-align: center;
       text-decoration: none;
       text-transform: uppercase;
-      margin: 50px 0 0 40px;
+      margin: 50px 0 0 0;
       order: 1; }
       .header__logo:hover {
         color: #333; }
@@ -211,20 +212,22 @@ h2 {
       text-align: center; }
       .header__about h1 {
         color: #fff;
-        font-size: 1.77em;
-        margin: 0;
-        text-transform: uppercase; }
+        font-size: 52px;
+        margin: 0 0 35px 0;
+        text-transform: uppercase;
+        line-height: 1.1; }
       .header__about p {
         color: #fff;
         font-size: 1.125em;
-        margin: 0; }
+        margin: 0 0 35px 0; }
       .header__about a {
         background-color: #ff4e50;
         border-radius: 30px;
         color: #fff;
         display: inline-block;
         font-size: 0.875em;
-        padding: 14px 48px;
+        font-weight: bold;
+        padding: 14px 23px;
         text-decoration: none; }
         .header__about a:hover {
           background-color: #333; }
