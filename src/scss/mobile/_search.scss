@@ -1,0 +1,47 @@
+.search {
+	margin-bottom: 40px;
+	text-align: center;
+	.container {
+		width: 300px;
+	}
+	h2 {
+		font-size: 1.375em;
+		margin-bottom: 20px;
+	}
+
+	p {
+		font-size: 1.125em;
+		margin-bottom: 15px;
+	}
+
+	input {
+		border: solid 1px #ccc;
+		box-shadow-bottom: 0px 1px #eee;
+		border-radius: 4px;
+		color: #d3d3d3;
+		font-size: .875em;
+		margin: auto;
+		margin-bottom: 10px;
+		padding: 10px;
+		width: 280px;
+		display: inline-block;
+
+		&:focus {
+			border: solid 1px #ff4e50;
+			outline: none;
+			color: #333;
+		}
+	}
+
+	button {
+		border-radius: 30px;
+		background-color: #ff4e50;
+		color: #fff;
+		font-size: .875em;
+		outline: none;
+		border: none;
+		height: 40px;
+		display: inline-block;
+		width: 280px;
+	}
+}

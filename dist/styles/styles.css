@@ -196,6 +196,43 @@ h2 {
       flex-direction: column;
       align-content: center; }
 
+  .search {
+    margin-bottom: 40px;
+    text-align: center; }
+    .search .container {
+      width: 300px; }
+    .search h2 {
+      font-size: 1.375em;
+      margin-bottom: 20px; }
+    .search p {
+      font-size: 1.125em;
+      margin-bottom: 15px; }
+    .search input {
+      border: solid 1px #ccc;
+      box-shadow-bottom: 0px 1px #eee;
+      border-radius: 4px;
+      color: #d3d3d3;
+      font-size: .875em;
+      margin: auto;
+      margin-bottom: 10px;
+      padding: 10px;
+      width: 280px;
+      display: inline-block; }
+      .search input:focus {
+        border: solid 1px #ff4e50;
+        outline: none;
+        color: #333; }
+    .search button {
+      border-radius: 30px;
+      background-color: #ff4e50;
+      color: #fff;
+      font-size: .875em;
+      outline: none;
+      border: none;
+      height: 40px;
+      display: inline-block;
+      width: 280px; }
+
   .footer {
     border-top: solid 4px #ff4e50;
     background-image: url(../images/footer-bg.png);
