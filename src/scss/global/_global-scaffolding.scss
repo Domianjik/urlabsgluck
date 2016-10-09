@@ -14,7 +14,9 @@ body {
 	background-repeat:no-repeat;
 	background-size: 1;
 	background-position: center top;
-	@media all and (max-width: 394px) {
+	min-width: 320px;
+	
+	@media all and (max-width: 747px) {
 		background-image: url("../images/header-bg.jpg");
 		background-repeat:no-repeat;
 		background-size: auto 500px;
