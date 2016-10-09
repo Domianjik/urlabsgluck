@@ -473,6 +473,20 @@ h2 {
       margin: 0 0 20px 0; }
     .partners p {
       margin: 0; }
+    .partners__button {
+      border-radius: 30px;
+      background-color: transparent;
+      color: #ff4e50;
+      font-size: .875em;
+      outline: none;
+      border: solid 2px #ff4e50;
+      height: 40px;
+      display: block;
+      margin: auto;
+      width: 200px; }
+      .partners__button:focus {
+        background-color: #ff4e50;
+        color: #fff; }
     .partners__member {
       margin: 0 32px 55px 32px;
       text-align: center;
