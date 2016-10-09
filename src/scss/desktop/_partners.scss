@@ -4,6 +4,7 @@
 	.flex {
 		justify-content: center;
 		align-items: baseline;
+		margin-bottom: 40px;
 	}
 
 	h3 {
@@ -41,5 +42,23 @@
 			}
 		}
 
+	}
+
+	&__button {
+		border-radius: 30px;
+		background-color: transparent;
+		color: #ff4e50;
+		font-size: .875em;
+		outline: none;
+		border: solid 2px #ff4e50;
+		height: 40px;
+		display: block;
+		margin: auto;
+		width: 280px;
+
+		&:focus {
+			background-color: #ff4e50;
+			color: #fff;
+		}
 	}
 }

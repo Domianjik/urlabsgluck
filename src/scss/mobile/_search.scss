@@ -43,5 +43,10 @@
 		height: 40px;
 		display: inline-block;
 		width: 280px;
+
+		&:focus {
+			background-color: #333;
+			color: #fff;
+		}
 	}
 }
