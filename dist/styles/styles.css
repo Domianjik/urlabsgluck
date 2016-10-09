@@ -810,7 +810,7 @@ button {
       height: 40px;
       display: block;
       margin: auto;
-      width: 280px; }
+      width: 200px; }
       .partners__button:focus {
         background-color: #ff4e50;
         color: #fff; }
