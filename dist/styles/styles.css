@@ -599,7 +599,45 @@ h2 {
         background-color: #333;
         cursor: pointer; }
       .search button:focus, .search button:visited {
-        background-color: #ff4e50; } }
+        background-color: #ff4e50; }
+
+  .footer {
+    border-top: solid 4px #ff4e50;
+    padding-top: 35px;
+    padding-bottom: 40px; }
+    .footer .container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      background-image: url(../images/footer-bg.png);
+      background-repeat: no-repeat;
+      background-position: top right; }
+    .footer__logo {
+      margin-right: 100px; }
+      .footer__logo a {
+        color: #ff4e50;
+        text-decoration: none;
+        font-size: 1.375em;
+        font-weight: bold;
+        text-transform: uppercase; }
+        .footer__logo a:hover {
+          color: #333; }
+    .footer__list {
+      list-style-type: none;
+      margin: 0 100px 0 0;
+      padding: 0; }
+      .footer__list h3 {
+        margin: 0 0 15px 0; }
+      .footer__list li {
+        margin-bottom: 12px; }
+        .footer__list li:last-child {
+          margin-bottom: 0px; }
+        .footer__list li a {
+          color: #c0c0c0;
+          text-decoration: none;
+          font-size: .875em; }
+          .footer__list li a:hover {
+            color: #666; } }
 @media screen and (min-width: 940px) {
   .header {
     flex-direction: column;
